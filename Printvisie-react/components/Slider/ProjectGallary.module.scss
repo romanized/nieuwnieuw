@@ -1,0 +1,40 @@
+.projectGallery {
+  text-align: center;
+
+  .video-container {
+    margin-top: 20px;
+    
+    iframe {
+      border-radius: 8px;
+      border: none;
+    }
+  }  
+
+  .galleryImage {
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .galleryControls {
+    margin-top: 10px;
+
+    button {
+      background-color: #4b4f87;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin: 0 5px;
+      border-radius: 4px;
+      cursor: pointer;
+      
+      &:hover {
+        background-color: #3a3d6d;
+      }
+    }
+  }
+}
